@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$font-family: "Montserrat", sans-serif;
+$grey: #50535a;
+$blue: #16a1dc;
+
+* {
+  font-family: $font-family;
+}
+
+h4 {
+  font-weight: 900;
+}
+
+svg {
+  max-width: 50%;
+}
+
+path {
+  fill: $grey;
+}
+
+#blue-logo {
+  fill: $blue !important;
+}
+
+footer {
+  a {
+    color: $blue
+  }
+  a:hover {
+    color: darken($blue, 10%)
+  }
+}
+
+.blue {
+  background-color: $blue;
+  border-color: $blue;
+  color: white;
+}
+
+.blue:hover {
+  color: white;
+}
+
+.blue:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba($blue, .2);
+}
+
+.grey {
+  background-color: $grey;
+  border-color: $grey;
+  color: white;
+}
+
+.grey:hover {
+  color: white;
+}
+
+.grey:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba($grey, .2);
+}
+
+.grey-text {
+  color: $grey;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba($blue, .2)
+}
